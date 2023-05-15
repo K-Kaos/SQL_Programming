@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_db14105031508a30bc352a7b78c1c5c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_db14105031508a30bc352a7b78c1c5c0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_db14105031508a30bc352a7b78c1c5c0 = L.map(
+                "map_db14105031508a30bc352a7b78c1c5c0",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a279165c16e5566ee07925cf4839b75f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var marker_eb128a3fe239443f1b001448722a0d76 = L.marker(
+                [40.0, -100.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_ed1e21164fc97f9aad49a8540655dfd5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: blue;\u0027\u003e590.7900000000019\u003c/div\u003e"});
+            marker_eb128a3fe239443f1b001448722a0d76.setIcon(div_icon_ed1e21164fc97f9aad49a8540655dfd5);
+        
+    
+        var popup_f28f05f97e06b34519e9225a98bce067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51dd666a71f9ecafbba9c67fd2b12064 = $(`<div id="html_51dd666a71f9ecafbba9c67fd2b12064" style="width: 100.0%; height: 100.0%;">Platform: X360<br>Sales: 590.7900000000019</div>`)[0];
+                popup_f28f05f97e06b34519e9225a98bce067.setContent(html_51dd666a71f9ecafbba9c67fd2b12064);
+            
+        
+
+        marker_eb128a3fe239443f1b001448722a0d76.bindPopup(popup_f28f05f97e06b34519e9225a98bce067)
+        ;
+
+        
+    
+    
+            var marker_663377b31ac4c8c52c85bcac3a68d035 = L.marker(
+                [40.0, -100.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_b50a2e617e14cabb9007aa7737428527 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: blue;\u0027\u003e567.9299999999977\u003c/div\u003e"});
+            marker_663377b31ac4c8c52c85bcac3a68d035.setIcon(div_icon_b50a2e617e14cabb9007aa7737428527);
+        
+    
+        var popup_88382e10ed034ed2cb85c68f38a182bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5782c578a206eb6d99ddaeba1a5f65b = $(`<div id="html_c5782c578a206eb6d99ddaeba1a5f65b" style="width: 100.0%; height: 100.0%;">Platform: PS2<br>Sales: 567.9299999999977</div>`)[0];
+                popup_88382e10ed034ed2cb85c68f38a182bb.setContent(html_c5782c578a206eb6d99ddaeba1a5f65b);
+            
+        
+
+        marker_663377b31ac4c8c52c85bcac3a68d035.bindPopup(popup_88382e10ed034ed2cb85c68f38a182bb)
+        ;
+
+        
+    
+    
+            var marker_467a3e1a088468df74bf945dd9ffa25b = L.marker(
+                [40.0, -100.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_378d79d639d2cd866f13a8749378ccf3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: blue;\u0027\u003e489.6199999999996\u003c/div\u003e"});
+            marker_467a3e1a088468df74bf945dd9ffa25b.setIcon(div_icon_378d79d639d2cd866f13a8749378ccf3);
+        
+    
+        var popup_7e1bfd55e1ae8362f9306d79f15d62ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e8253a3352e948cd3960f9fb3204815 = $(`<div id="html_5e8253a3352e948cd3960f9fb3204815" style="width: 100.0%; height: 100.0%;">Platform: Wii<br>Sales: 489.6199999999996</div>`)[0];
+                popup_7e1bfd55e1ae8362f9306d79f15d62ee.setContent(html_5e8253a3352e948cd3960f9fb3204815);
+            
+        
+
+        marker_467a3e1a088468df74bf945dd9ffa25b.bindPopup(popup_7e1bfd55e1ae8362f9306d79f15d62ee)
+        ;
+
+        
+    
+    
+            var marker_e7cdbd193895be8a5c054abcb5423e88 = L.marker(
+                [40.0, -100.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_e36694f9139bec04e19709d01160c12a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: blue;\u0027\u003e386.9900000000004\u003c/div\u003e"});
+            marker_e7cdbd193895be8a5c054abcb5423e88.setIcon(div_icon_e36694f9139bec04e19709d01160c12a);
+        
+    
+        var popup_5a7eb9db3a4fedf7b808dd91577d5639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21f9679d86e2e51d9990fda48eee3db8 = $(`<div id="html_21f9679d86e2e51d9990fda48eee3db8" style="width: 100.0%; height: 100.0%;">Platform: PS3<br>Sales: 386.9900000000004</div>`)[0];
+                popup_5a7eb9db3a4fedf7b808dd91577d5639.setContent(html_21f9679d86e2e51d9990fda48eee3db8);
+            
+        
+
+        marker_e7cdbd193895be8a5c054abcb5423e88.bindPopup(popup_5a7eb9db3a4fedf7b808dd91577d5639)
+        ;
+
+        
+    
+    
+            var marker_d96f50d8244352f321cc412a13d9a4bf = L.marker(
+                [40.0, -100.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_a14afc089470863f2805747317f80e9a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: blue;\u0027\u003e371.0799999999993\u003c/div\u003e"});
+            marker_d96f50d8244352f321cc412a13d9a4bf.setIcon(div_icon_a14afc089470863f2805747317f80e9a);
+        
+    
+        var popup_b2407a169ef641b71ce031af9ed8d93f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29664b784edff2d747862b2d20ee526e = $(`<div id="html_29664b784edff2d747862b2d20ee526e" style="width: 100.0%; height: 100.0%;">Platform: DS<br>Sales: 371.0799999999993</div>`)[0];
+                popup_b2407a169ef641b71ce031af9ed8d93f.setContent(html_29664b784edff2d747862b2d20ee526e);
+            
+        
+
+        marker_d96f50d8244352f321cc412a13d9a4bf.bindPopup(popup_b2407a169ef641b71ce031af9ed8d93f)
+        ;
+
+        
+    
+    
+            var marker_2acdc459ae20446d69fb36d9269f7bbc = L.marker(
+                [50.0, 10.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_a1d80787acbe59f3eb66922afd912f83 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: red;\u0027\u003e338.739999999999\u003c/div\u003e"});
+            marker_2acdc459ae20446d69fb36d9269f7bbc.setIcon(div_icon_a1d80787acbe59f3eb66922afd912f83);
+        
+    
+        var popup_a8b7a38089e8f8c725a1e16c8ed49962 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d8c9e8c3b1f87db7630155696e0c370 = $(`<div id="html_3d8c9e8c3b1f87db7630155696e0c370" style="width: 100.0%; height: 100.0%;">Platform: PS3<br>Sales: 338.739999999999</div>`)[0];
+                popup_a8b7a38089e8f8c725a1e16c8ed49962.setContent(html_3d8c9e8c3b1f87db7630155696e0c370);
+            
+        
+
+        marker_2acdc459ae20446d69fb36d9269f7bbc.bindPopup(popup_a8b7a38089e8f8c725a1e16c8ed49962)
+        ;
+
+        
+    
+    
+            var marker_5a90713c98ecf57d9c2d71f9c63b3111 = L.marker(
+                [50.0, 10.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_da61a5da3c50be9d908bee47867b447f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: red;\u0027\u003e328.7699999999999\u003c/div\u003e"});
+            marker_5a90713c98ecf57d9c2d71f9c63b3111.setIcon(div_icon_da61a5da3c50be9d908bee47867b447f);
+        
+    
+        var popup_a287055f68d6bc27e857836b0c9f4d2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cee9fea8c230b095e2cc05799a7d660 = $(`<div id="html_6cee9fea8c230b095e2cc05799a7d660" style="width: 100.0%; height: 100.0%;">Platform: PS2<br>Sales: 328.7699999999999</div>`)[0];
+                popup_a287055f68d6bc27e857836b0c9f4d2a.setContent(html_6cee9fea8c230b095e2cc05799a7d660);
+            
+        
+
+        marker_5a90713c98ecf57d9c2d71f9c63b3111.bindPopup(popup_a287055f68d6bc27e857836b0c9f4d2a)
+        ;
+
+        
+    
+    
+            var marker_9e4f66cdba19cb13da26a78d8c3e18f5 = L.marker(
+                [50.0, 10.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_a0742f59a616abf88c8166a13936ed82 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: red;\u0027\u003e275.9099999999973\u003c/div\u003e"});
+            marker_9e4f66cdba19cb13da26a78d8c3e18f5.setIcon(div_icon_a0742f59a616abf88c8166a13936ed82);
+        
+    
+        var popup_edff5473260448550045880ff80819da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c526d4074950ddc3b9349b0fa66f67f = $(`<div id="html_9c526d4074950ddc3b9349b0fa66f67f" style="width: 100.0%; height: 100.0%;">Platform: X360<br>Sales: 275.9099999999973</div>`)[0];
+                popup_edff5473260448550045880ff80819da.setContent(html_9c526d4074950ddc3b9349b0fa66f67f);
+            
+        
+
+        marker_9e4f66cdba19cb13da26a78d8c3e18f5.bindPopup(popup_edff5473260448550045880ff80819da)
+        ;
+
+        
+    
+    
+            var marker_f8ce7c24db43ada9a9508aebf993a1a2 = L.marker(
+                [50.0, 10.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_656652316b66644fde1acb7d87985da6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: red;\u0027\u003e262.30999999999904\u003c/div\u003e"});
+            marker_f8ce7c24db43ada9a9508aebf993a1a2.setIcon(div_icon_656652316b66644fde1acb7d87985da6);
+        
+    
+        var popup_9d9f8b0eed1163c98fc7a2e3bc05dbe2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea346ffc14c5b4d17f78e7825a6e627 = $(`<div id="html_3ea346ffc14c5b4d17f78e7825a6e627" style="width: 100.0%; height: 100.0%;">Platform: Wii<br>Sales: 262.30999999999904</div>`)[0];
+                popup_9d9f8b0eed1163c98fc7a2e3bc05dbe2.setContent(html_3ea346ffc14c5b4d17f78e7825a6e627);
+            
+        
+
+        marker_f8ce7c24db43ada9a9508aebf993a1a2.bindPopup(popup_9d9f8b0eed1163c98fc7a2e3bc05dbe2)
+        ;
+
+        
+    
+    
+            var marker_79327b026df7bb13745fdf4b8a4b0222 = L.marker(
+                [50.0, 10.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_ea87b4536247f236d3d703702b206f30 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: red;\u0027\u003e209.12000000000052\u003c/div\u003e"});
+            marker_79327b026df7bb13745fdf4b8a4b0222.setIcon(div_icon_ea87b4536247f236d3d703702b206f30);
+        
+    
+        var popup_a362927efe97088f16fea7c21a53bcc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3db28d119fdc49e831bdfd6a4dc44c4 = $(`<div id="html_c3db28d119fdc49e831bdfd6a4dc44c4" style="width: 100.0%; height: 100.0%;">Platform: PS<br>Sales: 209.12000000000052</div>`)[0];
+                popup_a362927efe97088f16fea7c21a53bcc4.setContent(html_c3db28d119fdc49e831bdfd6a4dc44c4);
+            
+        
+
+        marker_79327b026df7bb13745fdf4b8a4b0222.bindPopup(popup_a362927efe97088f16fea7c21a53bcc4)
+        ;
+
+        
+    
+    
+            var marker_4d42010283b87405a3b5d181dd17ca31 = L.marker(
+                [35.0, 140.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_3620429a2b56cd3eee6c6858212cc463 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: green;\u0027\u003e163.1700000000001\u003c/div\u003e"});
+            marker_4d42010283b87405a3b5d181dd17ca31.setIcon(div_icon_3620429a2b56cd3eee6c6858212cc463);
+        
+    
+        var popup_fa805f2e13da52c0c37e5b3c8963f9b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c6cb5d6966216e5a4123c59c938b73 = $(`<div id="html_d3c6cb5d6966216e5a4123c59c938b73" style="width: 100.0%; height: 100.0%;">Platform: DS<br>Sales: 163.1700000000001</div>`)[0];
+                popup_fa805f2e13da52c0c37e5b3c8963f9b7.setContent(html_d3c6cb5d6966216e5a4123c59c938b73);
+            
+        
+
+        marker_4d42010283b87405a3b5d181dd17ca31.bindPopup(popup_fa805f2e13da52c0c37e5b3c8963f9b7)
+        ;
+
+        
+    
+    
+            var marker_68878677c6592e0b19418e04f4580332 = L.marker(
+                [35.0, 140.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_8e82de696b7e66639f27fdd0431d2aed = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: green;\u0027\u003e138.23\u003c/div\u003e"});
+            marker_68878677c6592e0b19418e04f4580332.setIcon(div_icon_8e82de696b7e66639f27fdd0431d2aed);
+        
+    
+        var popup_cf20344d616cd07dfcecd9a758d8bb45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db9eca29d841d363b221c66850c8bf0c = $(`<div id="html_db9eca29d841d363b221c66850c8bf0c" style="width: 100.0%; height: 100.0%;">Platform: PS<br>Sales: 138.23</div>`)[0];
+                popup_cf20344d616cd07dfcecd9a758d8bb45.setContent(html_db9eca29d841d363b221c66850c8bf0c);
+            
+        
+
+        marker_68878677c6592e0b19418e04f4580332.bindPopup(popup_cf20344d616cd07dfcecd9a758d8bb45)
+        ;
+
+        
+    
+    
+            var marker_cf261eed326a1beb170110b6d905fc4c = L.marker(
+                [35.0, 140.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_8a72959003a52f4ab957c89e24c61b4f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: green;\u0027\u003e127.84999999999997\u003c/div\u003e"});
+            marker_cf261eed326a1beb170110b6d905fc4c.setIcon(div_icon_8a72959003a52f4ab957c89e24c61b4f);
+        
+    
+        var popup_809128e87e3499aa7576b79e2eff8de5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_743bf90b6321245f05ab39bda9fe58a2 = $(`<div id="html_743bf90b6321245f05ab39bda9fe58a2" style="width: 100.0%; height: 100.0%;">Platform: PS2<br>Sales: 127.84999999999997</div>`)[0];
+                popup_809128e87e3499aa7576b79e2eff8de5.setContent(html_743bf90b6321245f05ab39bda9fe58a2);
+            
+        
+
+        marker_cf261eed326a1beb170110b6d905fc4c.bindPopup(popup_809128e87e3499aa7576b79e2eff8de5)
+        ;
+
+        
+    
+    
+            var marker_55427c1f2b82a194f475dc295173821e = L.marker(
+                [35.0, 140.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_57cae7222e304a26637a145de78f9175 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: green;\u0027\u003e114.62\u003c/div\u003e"});
+            marker_55427c1f2b82a194f475dc295173821e.setIcon(div_icon_57cae7222e304a26637a145de78f9175);
+        
+    
+        var popup_9c0383971d1da697abd10760132ed0b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e36becdf6fda63a010c9950d234dbf03 = $(`<div id="html_e36becdf6fda63a010c9950d234dbf03" style="width: 100.0%; height: 100.0%;">Platform: SNES<br>Sales: 114.62</div>`)[0];
+                popup_9c0383971d1da697abd10760132ed0b4.setContent(html_e36becdf6fda63a010c9950d234dbf03);
+            
+        
+
+        marker_55427c1f2b82a194f475dc295173821e.bindPopup(popup_9c0383971d1da697abd10760132ed0b4)
+        ;
+
+        
+    
+    
+            var marker_a129cd1cd05050d3f91d0655b451366a = L.marker(
+                [35.0, 140.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_ece62376a367d9ab0903976707b7364c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: green;\u0027\u003e98.62999999999997\u003c/div\u003e"});
+            marker_a129cd1cd05050d3f91d0655b451366a.setIcon(div_icon_ece62376a367d9ab0903976707b7364c);
+        
+    
+        var popup_5151a1f761d7ab2b02a5b0fa3aa4f335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f1e7124697fbd6f1f8106ba536509c = $(`<div id="html_d2f1e7124697fbd6f1f8106ba536509c" style="width: 100.0%; height: 100.0%;">Platform: NES<br>Sales: 98.62999999999997</div>`)[0];
+                popup_5151a1f761d7ab2b02a5b0fa3aa4f335.setContent(html_d2f1e7124697fbd6f1f8106ba536509c);
+            
+        
+
+        marker_a129cd1cd05050d3f91d0655b451366a.bindPopup(popup_5151a1f761d7ab2b02a5b0fa3aa4f335)
+        ;
+
+        
+    
+    
+            var marker_c84cc9b9bb108218703c3d573c02cd45 = L.marker(
+                [30.0, -20.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_58ce51b13a2c83f4a32466da42a9b455 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: purple;\u0027\u003e189.17000000000183\u003c/div\u003e"});
+            marker_c84cc9b9bb108218703c3d573c02cd45.setIcon(div_icon_58ce51b13a2c83f4a32466da42a9b455);
+        
+    
+        var popup_b82c363822db8ce790117130d898d340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb10e7c15b71f37dc6a6fc3f67f6be9b = $(`<div id="html_fb10e7c15b71f37dc6a6fc3f67f6be9b" style="width: 100.0%; height: 100.0%;">Platform: PS2<br>Sales: 189.17000000000183</div>`)[0];
+                popup_b82c363822db8ce790117130d898d340.setContent(html_fb10e7c15b71f37dc6a6fc3f67f6be9b);
+            
+        
+
+        marker_c84cc9b9bb108218703c3d573c02cd45.bindPopup(popup_b82c363822db8ce790117130d898d340)
+        ;
+
+        
+    
+    
+            var marker_dd4214394fb0180dfabb951c7b579b8f = L.marker(
+                [30.0, -20.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_06ed17fbb7ceb2d11b0aba4fe78a2faf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: purple;\u0027\u003e140.13000000000045\u003c/div\u003e"});
+            marker_dd4214394fb0180dfabb951c7b579b8f.setIcon(div_icon_06ed17fbb7ceb2d11b0aba4fe78a2faf);
+        
+    
+        var popup_1c47c7a00bf16742e547b3eea42ddbca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56bdd886ed6f5817417da54ad3c0ed91 = $(`<div id="html_56bdd886ed6f5817417da54ad3c0ed91" style="width: 100.0%; height: 100.0%;">Platform: PS3<br>Sales: 140.13000000000045</div>`)[0];
+                popup_1c47c7a00bf16742e547b3eea42ddbca.setContent(html_56bdd886ed6f5817417da54ad3c0ed91);
+            
+        
+
+        marker_dd4214394fb0180dfabb951c7b579b8f.bindPopup(popup_1c47c7a00bf16742e547b3eea42ddbca)
+        ;
+
+        
+    
+    
+            var marker_c0d29ee07fbcb0941c597b39aada3c60 = L.marker(
+                [30.0, -20.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_b39e166c30c9e8ac574e414b92b6dd22 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: purple;\u0027\u003e84.30000000000118\u003c/div\u003e"});
+            marker_c0d29ee07fbcb0941c597b39aada3c60.setIcon(div_icon_b39e166c30c9e8ac574e414b92b6dd22);
+        
+    
+        var popup_1866e4c4753fd90293919d75108657e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d34e504357ab44c0f4dff38bc78cd6c7 = $(`<div id="html_d34e504357ab44c0f4dff38bc78cd6c7" style="width: 100.0%; height: 100.0%;">Platform: X360<br>Sales: 84.30000000000118</div>`)[0];
+                popup_1866e4c4753fd90293919d75108657e2.setContent(html_d34e504357ab44c0f4dff38bc78cd6c7);
+            
+        
+
+        marker_c0d29ee07fbcb0941c597b39aada3c60.bindPopup(popup_1866e4c4753fd90293919d75108657e2)
+        ;
+
+        
+    
+    
+            var marker_c3a83bcffb5764ecdb254aa82c3e0dc0 = L.marker(
+                [30.0, -20.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_3ad6437ace7c49e5ab36e8b606fe75fe = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: purple;\u0027\u003e78.8400000000014\u003c/div\u003e"});
+            marker_c3a83bcffb5764ecdb254aa82c3e0dc0.setIcon(div_icon_3ad6437ace7c49e5ab36e8b606fe75fe);
+        
+    
+        var popup_357591f3eb830e52f9a5f88b3eea84b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c2446eb5bec485c8c2f2d866cd48ce1 = $(`<div id="html_9c2446eb5bec485c8c2f2d866cd48ce1" style="width: 100.0%; height: 100.0%;">Platform: Wii<br>Sales: 78.8400000000014</div>`)[0];
+                popup_357591f3eb830e52f9a5f88b3eea84b7.setContent(html_9c2446eb5bec485c8c2f2d866cd48ce1);
+            
+        
+
+        marker_c3a83bcffb5764ecdb254aa82c3e0dc0.bindPopup(popup_357591f3eb830e52f9a5f88b3eea84b7)
+        ;
+
+        
+    
+    
+            var marker_9b499411119224d9812b21a785bf5bf1 = L.marker(
+                [30.0, -20.0],
+                {}
+            ).addTo(map_db14105031508a30bc352a7b78c1c5c0);
+        
+    
+            var div_icon_68629bfa5a4c110f214dcc6843e613d3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; color: purple;\u0027\u003e59.579999999999785\u003c/div\u003e"});
+            marker_9b499411119224d9812b21a785bf5bf1.setIcon(div_icon_68629bfa5a4c110f214dcc6843e613d3);
+        
+    
+        var popup_b449b007bb96826501d5dc2e130f356b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0e1009acf1b7197620cfada6b00e5db = $(`<div id="html_f0e1009acf1b7197620cfada6b00e5db" style="width: 100.0%; height: 100.0%;">Platform: DS<br>Sales: 59.579999999999785</div>`)[0];
+                popup_b449b007bb96826501d5dc2e130f356b.setContent(html_f0e1009acf1b7197620cfada6b00e5db);
+            
+        
+
+        marker_9b499411119224d9812b21a785bf5bf1.bindPopup(popup_b449b007bb96826501d5dc2e130f356b)
+        ;
+
+        
+    
+</script>
+</html>
